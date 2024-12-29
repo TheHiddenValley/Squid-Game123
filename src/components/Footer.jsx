@@ -5,53 +5,29 @@ import { fontLightColor } from "../utils/colors";
 export const Footer = () => {
   return (
     <Container className="defaultMargin">
-      <ul>
-        <li>
-          <a href="#">FAQ</a>
-        </li>
-        <li>
-          <a href="#">Help Centre</a>
-        </li>
-        <li>
-          <a href="#">Account</a>
-        </li>
-        <li>
-          <a href="#">Media Centre</a>
-        </li>
-        <li>
-          <a href="#">Investor Relations</a>
-        </li>
-        <li>
-          <a href="#">Jobs</a>
-        </li>
-        <li>
-          <a href="#">Ways to Watch</a>
-        </li>
-        <li>
-          <a href="#">Terms of Use</a>
-        </li>
-        <li>
-          <a href="#">Privacy</a>
-        </li>
-        <li>
-          <a href="#">Cookie Preferences</a>
-        </li>
-        <li>
-          <a href="#">Corporate Information</a>
-        </li>
-        <li>
-          <a href="#">Contact Us</a>
-        </li>
-        <li>
-          <a href="#">Speed Test</a>
-        </li>
-        <li>
-          <a href="#">Legal Notices</a>
-        </li>
-        <li>
-          <a href="#">Only on Netflix</a>
-        </li>
-      </ul>
+        <ul className="links">
+          <li>
+            <a href="#info">How To Buy</a>
+          </li>
+          <li>
+            <a href="#videos">Play the Game</a>
+          </li>
+          <li>
+          <a href="https://www.dexscreener.com" target="_blank" rel="noopener noreferrer">
+      DexScreener
+    </a>
+          </li>
+          <li>
+          <a href="https://x.com/sidthesquidsol" target="_blank" rel="noopener noreferrer">
+      Twitter
+    </a>
+          </li>
+          <li>
+          <a href="https://t.me/sidthesquidSOL" target="_blank" rel="noopener noreferrer">
+      Telegram
+    </a>
+          </li>
+        </ul>
     </Container>
   );
 };
@@ -82,7 +58,7 @@ const Container = styled.footer`
     }
   }
 
-  @media screen and (min-width: 280px) and (max-width: 1080px) {
+  @media screen and (min-width: 80vw) and (max-width: 1080px) {
     margin: 0 5vw;
     ul {
       grid-template-columns: repeat(2, 1fr);

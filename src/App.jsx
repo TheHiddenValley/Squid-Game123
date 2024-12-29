@@ -34,8 +34,9 @@ function App() {
   return (
     <div>
       <Home />
-      <Info />
       <Videos />
+      <Info />
+      <Footer />
     </div>
   );
 }
