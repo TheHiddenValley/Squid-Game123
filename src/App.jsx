@@ -35,10 +35,7 @@ function App() {
     <div>
       <Home />
       <Info />
-      <Episodes />
       <Videos />
-      <Details />
-      <Footer />
     </div>
   );
 }

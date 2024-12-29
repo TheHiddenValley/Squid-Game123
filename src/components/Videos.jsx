@@ -9,19 +9,17 @@ import { FaPlay } from "react-icons/fa";
 export const Videos = () => {
   return (
     <Section className="defaultMargin" id="videos">
-      <div className="title">
-        <img src={Video} alt="Video Title" />
-      </div>
+<div className="title">
+  <ul>
+    <h1 style={{ color: "white" }}>Play The Game</h1>
+  </ul>
+</div>
       <div className="videos">
         <div className="video">
           <div className="circle blue"></div>
           <div className="container">
             <img src={Video1} alt="1st video" />
             <div className="info">
-              <p>Season 1 Trailer : Squid Game</p>
-              <div className="icon">
-                <FaPlay />
-              </div>
             </div>
           </div>
         </div>
@@ -29,10 +27,6 @@ export const Videos = () => {
           <div className="container">
             <img src={Video2} alt="2nd vidoe" />
             <div className="info">
-              <p>Season 2 Trailer : Squid Game</p>
-              <div className="icon">
-                <FaPlay />
-              </div>
             </div>
           </div>
           <div className="square pink"></div>

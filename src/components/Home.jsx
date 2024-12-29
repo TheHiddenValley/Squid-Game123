@@ -18,16 +18,25 @@ export const Home = () => {
         </div>
         <ul className="links">
           <li>
-            <a href="#info">Info</a>
+            <a href="#info">How To Buy</a>
           </li>
           <li>
-            <a href="#episodes">Episodes</a>
+            <a href="#videos">Play the Game</a>
           </li>
           <li>
-            <a href="#videos">Videos</a>
+          <a href="https://www.dexscreener.com" target="_blank" rel="noopener noreferrer">
+      DexScreener
+    </a>
           </li>
           <li>
-            <a href="#details">Details</a>
+          <a href="https://x.com/sidthesquidsol" target="_blank" rel="noopener noreferrer">
+      Twitter
+    </a>
+          </li>
+          <li>
+          <a href="https://t.me/sidthesquidSOL" target="_blank" rel="noopener noreferrer">
+      Telegram
+    </a>
           </li>
         </ul>
       </div>

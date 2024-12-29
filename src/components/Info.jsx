@@ -9,32 +9,21 @@ export const Info = () => {
       <div className="info">
         <div className="title">
           <ul>
-            <li>2021</li>
-            <li>18+</li>
-            <li>1 Season</li>
-            <li>TV Dramas</li>
+            <h1>How To Buy</h1>
           </ul>
         </div>
         <div className="details">
           <p className="border-top">
-            Hundreds of cash-strapped players accept a strange invitation to
-            compete in children's games. Inside, a tempting prize awaits — with
-            deadly high stakes.
+          Visit phantom.app and follow the simple steps to create a new account with the Phantom app or browser extension.
           </p>
-          <div className="border-top">
-            <p>Starring</p>
-            <ul>
-              <li>Lee Jung-jae</li>
-              <li>Park Hae-soo</li>
-              <li>Wi Ha-jun</li>
-            </ul>
-          </div>
-          <div className="border-top">
-            <p>Creators</p>
-            <ul>
-              <li>Park Chan Wook</li>
-            </ul>
-          </div>
+          <p className="border-top">
+          Tap the BUY button in the app to purchase Solana, or deposit SOL to your Phantom wallet from the crypto exchange of your choice.
+          </p>          <p className="border-top">
+          Tap the SWAP icon in your Phantom wallet and paste the token address. Swap your SOL for tokens.
+          </p>
+          <p className="border-top">
+          You're now holding some SID THE SQUID!
+          </p>
         </div>
       </div>
     </Section>

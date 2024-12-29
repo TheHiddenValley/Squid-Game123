@@ -8,16 +8,18 @@ export const Details = () => {
     <Section className="defaultMargin" id="details">
       <div className="square"></div>
       <div className="info">
-        <div className="image">
-          <img src={details} alt="" />
-        </div>
+      <div className="title">
+  <ul>
+    <h1 style={{ color: "white" }}>Tokenomics</h1>
+  </ul>
+</div>
         <div className="details">
           <div className="border-top">
-            <p>Watch Offline</p>
-            <p>Available to download</p>
+            <p style={{ color: "white" }}>Watch Offline</p>
+            <p style={{ color: "white" }}>Available to download</p>
           </div> 
           <div className="border-top">
-            <p>Genres</p>
+          <p style={{ color: "white" }}>Genres</p>
             <ul>
               <li>Korean</li>
               <li>TV Thrillers</li>
